@@ -1,0 +1,34 @@
+Step 1:
+Run 
+python debug.py
+on your terminal.
+
+Step 2: 
+press the four arrow keys and note
+the values being printed out on your 
+terminal when you press each button
+
+When you are done, exit the gray box
+which opened. 
+
+Step 3:
+Go into snake.py in your favorite
+text editor and edit the lines 135-142
+from :
+if repr(event.keycode) == "111":
+        game.turn_snake("N")
+    elif repr(event.keycode) == "114":
+        game.turn_snake("E")
+    elif repr(event.keycode) == "113":
+        game.turn_snake("W")
+    elif repr(event.keycode) == "116":
+        game.turn_snake("S")
+
+so that the numbers in the "" are the numbers 
+that were printed out in step two. 
+
+The first number corresponds to the UP key
+The second number corresponds to the RIGHT key
+the third number corresponds to the LEFT key
+the fourth number corresponds to the DOWN key
+

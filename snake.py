@@ -50,6 +50,7 @@ class game():
             self.board.addtag_overlapping("FOOD", foodx*12+1, foody*12+1,foodx*12+12-1, foody*12+12-1)
         else:
             self.make_food()
+
     def turn_snake(self, head_direction):
         if head_direction != self.head_direction and opposite[head_direction] != self.head_direction:
             if not self.turning:
